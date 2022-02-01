@@ -9,7 +9,24 @@ h1 {
     text-align: center;
 }
 
-span {
+h4 {
+    color: black;
+    font-family: Verdana;
+}
+
+.insideDiv {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    text-align: center;
+    float: right;
+    border: 1.5px solid black;
+    background-color: pink;
+    font-size: 15px;
+}
+
+
+/* span {
     display: flex;
     text-align: center;
     float: right;
@@ -18,7 +35,7 @@ span {
     color: black;
     font-family: Verdana;
     font-size: 15px;
-}
+} */
 
 p {
     border: 2px solid black;
