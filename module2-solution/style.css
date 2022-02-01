@@ -9,6 +9,22 @@ h1 {
     text-align: center;
 }
 
+h4 {
+    position: absolute;
+    background-color: #333;
+    color: #83d0f2;
+    top: 92px;
+    right: 29px;
+    margin: 0;
+    padding: 3px 10px;
+    width: 70px;
+    height: 25px;
+    font-size: .9rem;
+    letter-spacing: .035rem;
+    z-index: 2;
+    font-family: Verdana;
+}
+
 span {
     display: flex;
     text-align: center;
