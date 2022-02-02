@@ -10,22 +10,8 @@ h1 {
 }
 
 h4 {
-    position: absolute;
-    background-color: #333;
-    color: #83d0f2;
-    top: 92px;
-    right: 29px;
-    margin: 0;
-    padding: 3px 10px;
-    width: 70px;
+    width: 85px;
     height: 25px;
-    font-size: .9rem;
-    letter-spacing: .035rem;
-    z-index: 2;
-    font-family: Verdana;
-}
-
-span {
     display: flex;
     text-align: center;
     float: right;
@@ -34,6 +20,8 @@ span {
     color: black;
     font-family: Verdana;
     font-size: 15px;
+    margin-top: 15px;
+    padding-left: 6px;
 }
 
 p {
