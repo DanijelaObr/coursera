@@ -40,8 +40,9 @@ WARNING!!! WARNING!!!
     // Loop over the names array and say either 'Hello' or "Good Bye"
     // using either the helloSpeaker's or byeSpeaker's 'speak' method.
     // See Lecture 50, part 1
-    for (var name in names) {
-        lowerCaseName = name.toLowerCase();
+    for (var i = 0; i < names.length; i++) {
+        lowerCaseName = names[i].toLowerCase();
+
 
 
         // STEP 11:
@@ -59,9 +60,9 @@ WARNING!!! WARNING!!!
         // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
         // name in the loop.
         if (lowerCaseName.charAt(0) === 'j') {
-            byeSpeaker.speak(name);
+            byeSpeaker.speak(names[i]);
         } else {
-            helloSpeaker.speak(name);
+            helloSpeaker.speak(names[i]);
         }
     }
 })();
